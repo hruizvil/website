@@ -216,6 +216,7 @@
 /* Start of Sixth Column Container */
 .item6 {
   padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 
 .item6-container {
@@ -241,3 +242,102 @@
   padding: 10px 27px 0 27px;
 }
 /* End of Sixth Column Container */
+
+/* Start of Seventh Column Container */
+.item7-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+
+.item7-items img {
+  width: 100%;
+  height: auto;
+  /* background-size: cover; */
+  /* background-position: center center; */
+}
+
+.item7-items {
+  flex: 0.9;
+  background-color: rgb(221, 222, 232);
+  padding-bottom: 2vh;
+}
+
+.item7-items h2 {
+  font-size: 1em;
+  padding: 27px 10px 20px 20px;
+}
+
+.item7-items p {
+  font-size: 0.9em;
+  padding-left: 20px;
+}
+
+.item7-items button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5vh;
+  margin: 30px 0 0 20px;
+  padding: 0 30px 0 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  border: 1px solid #cdcdcd;
+}
+/* End of Seventh Column Container */
+
+/* Start of Eight Column Container */
+.item8-container {
+  display: flex;
+  flex-direction: column;
+  height: 43vh;
+  background-image: url("./images/chicago-winter.jpg");
+  background-size: cover; 
+  background-position: center;
+  padding: 0 20% 0 20%;
+}
+
+.item8-items {
+  display: flex;
+  height: 43vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.item8-items p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: goldenrod;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input-container > input {
+  margin-bottom: 15px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-container textarea {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+/* End of Eight Column Container */
