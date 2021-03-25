@@ -103,6 +103,7 @@
 /* End of Banner Container Styles */
 
 /* Start of Three Column Container */
+
 #first-container {
   /* background-color: rgb(212, 99, 99); */
   padding-top: 4.9vh;
@@ -113,8 +114,8 @@
 .first-inner-container {
   /* background-color: gold; */
   height: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   justify-content: space-around;
 }
@@ -135,7 +136,7 @@
 .inner-column {
   display: flex;
   flex-direction: column;
-  background-color: rgba(156, 158, 168, 0.699);
+  background-color: rgb(221, 222, 232);
 }
 
 .inner-column img {
@@ -170,6 +171,73 @@
   padding: 0.6em;
 }
 
+/* End of Third Column Container */
 
+/* Start of Fourth Column Container */
+.item4 {
+  padding-top: 4.9vh;
+}
 
-/* End of Three Column Container */
+.item4-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item4-flex-items {
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
+  background-color: rgb(221, 222, 232);
+  padding-bottom: 3vh;
+}
+
+.item4-flex-items h2 {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.item4-flex-items p {
+  font-size: 0.9em;
+  padding: 10px 27px 0 27px;
+}
+/* End of Fourth Column Container */
+
+/* End of Fifth Column Container */
+.item5 {
+  padding-top: 4vh;
+}
+
+.item5 img {
+  width: 100%;
+}
+/* End of Fifth Column Container */
+
+/* Start of Sixth Column Container */
+.item6 {
+  padding-top: 4vh;
+}
+
+.item6-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item6-items {
+  flex: 0.1;
+  background-color: rgb(221, 222, 232);
+  padding-bottom: 4vh;
+}
+
+.item6-items h2 {
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+}
+
+.item6-items p {
+  font-size: 0.9em;
+  padding: 10px 27px 0 27px;
+}
+/* End of Sixth Column Container */
